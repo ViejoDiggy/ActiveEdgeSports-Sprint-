@@ -5,7 +5,21 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+header {
+    min-height: 20vh;
+}
+main {
+    min-height: 70vh;
+}
+footer{
+    min-height: 10vh;
+    background-color: #121212;
+    text-align: center;
+    align-content: center;
+    color: #CFFF15;
 }
 
 .header>img {
@@ -37,21 +51,85 @@ nav>a {
 }
 
 .presentacion {
-    text-align: center;
-    background-color: #121212;
     color: #CFFF15;
+    text-align: center;
     padding: 100px 20px;
+    background-image: url(../images/background-01.jpg);
+    
 }
 .presentacion>h2 {
     margin-bottom: 20px;
 }
-.presentacion>p {
+.presentacion p {
     color: white;
 }
 
 .productos img {
-    width: 200px;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+    border-radius: 5px;
 }
+.productos-titulo>h3 {
+    text-align: center;
+    padding: 20px;
+    margin-top: 10px;
+    background-color: #E6E6E6;
+    color: #121212;
+}
+.productos {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+
+}
+.detalle {
+    background-color: #121212;
+    text-align: center;
+    padding: 5px 110px 15px;
+    border-radius: 10px;
+    margin: 10px;
+}
+.detalle h4 {
+    margin: 10px 0;
+    color: #CFFF15;
+}
+.detalle p, h5 {
+    margin: 10px 0;
+    color: white;
+}
+.detalle a {
+    background-color: #CFFF15;
+    padding: 7px;
+    border-radius: 5px;
+    color: #121212;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.categorias {
+    background-color: #E6E6E6;
+}
+.imagen-categoria {
+    display: flex;
+    justify-content:space-around
+
+}
+.imagen-categoria img {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 10px;
+}
+.categorias h3 {
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+
+
+
 
 table, tr, td, th {
     border: 1px solid black;
