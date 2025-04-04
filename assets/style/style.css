@@ -81,7 +81,6 @@ nav>a {
     background-color: white;
     display: flex;
     justify-content: space-around;
-
 }
 .detalle {
     background-color: #121212;
@@ -149,7 +148,6 @@ nav>a {
     margin: 15px;
     padding: 10px;
     border-radius: 10px;
-
 }
 
 .team h3 {
@@ -205,9 +203,111 @@ nav>a {
     margin-bottom: 20px;
 }
 
+.contenedor-productos {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+
+.categorias-y-productos {
+    display: flex;
+    margin-bottom: 40px;
+    gap: 5px;
+}
+.menu-lateral {
+    width: 25%;
+    height: 500px;
+    background-color: #E6E6E6;
+    padding: 10px 20px 0 20px;
+}
+.menu-lateral h3 {
+    margin-bottom: 15px;
+    color: #121212;
+    text-align: center;
+}
+.menu-lateral h4 {
+    background-color: #121212;
+    padding: 5px;
+    border-radius: 5px;
+    color: #CFFF15;
+    margin: 15px 0 5px;
+}
+.menu-lateral p {
+    color: #121212;
+    margin: 10px 0 0 10px;
+}
+
+.seccion-productos {
+    width: 75%;
+}
+.seccion-productos h3 {
+    color: #121212;
+    padding: 15px;
+    background-color: #E6E6E6;
+    margin-bottom: 15px;
+}
+
+.producto-grilla {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+.producto-grilla img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.cuadro-producto {
+    text-align: center;
+    background-color: #121212;
+    width: 260px;
+    height: 300px;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 5px;
+}
+.cuadro-producto h4 {
+    margin: 10px 0;
+    color: #CFFF15;
+}
+.cuadro-producto p {
+    margin: 10px 0;
+    color: white;
+}
+.cuadro-producto h5 {
+    margin: 10px 0;
+    color: white;
+}
+.cuadro-producto a {
+    background-color: #CFFF15;
+    padding: 7px;
+    border-radius: 5px;
+    color: #121212;
+    font-weight: bold;
+    text-decoration: none;
+}
+
 
 
 table, tr, td, th {
-    border: 1px solid black;
+    border: 3px solid white;
     border-collapse: collapse;
+    text-align: center;
+    padding: 10px;
+}
+.beneficios h3 {
+    margin: 20px 0 20px 0px;
+    color: #121212;
+}
+.beneficios table {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.beneficios th {
+    background-color: #CFFF15;
+    color: #121212;
+}
+.beneficios td {
+    background-color: #E6E6E6;
 }
