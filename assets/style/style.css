@@ -356,12 +356,17 @@ table, tr, td, th {
 }
 .categorias-contacto label {
     display: inline-block;
-    margin-right: 50px;
-    margin-left: 50px;
+    margin-right: 20px;
+}
+.categorias-contacto {
+    text-align: center;
 }
 .suscripcion label {
     display: inline-block;
     margin-right: 50px;
+}
+.suscripcion {
+    text-align: center;
 }
 .botones-contacto {
     display: flex;
