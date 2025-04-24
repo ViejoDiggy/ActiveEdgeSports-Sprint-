@@ -9,10 +9,10 @@ body {
 }
 
 header {
-    min-height: 20vh;
+    min-height: 10vh;
 }
 main {
-    min-height: 70vh;
+    min-height: 80vh;
 }
 footer{
     min-height: 10vh;
@@ -22,6 +22,10 @@ footer{
     color: #CFFF15;
 }
 
+.encabezamiento {
+    position: sticky;
+    top: 0;
+}
 .header>img {
     width: 75px;
     margin-left: 15px;
@@ -29,19 +33,17 @@ footer{
 .header {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
     align-items: center;
     background-color: #121212;
     color: #CFFF15;
     padding-top: 10px;
     padding-bottom: 10px;
 }
-.site-name {
-    background-color: #121212;
-    text-align: center;
-    color: #CFFF15;
-    padding-bottom: 20px;
-}
-  
+.header h2 {
+    color: #121212;
+} 
 .navbar {
     background-color: #CFFF15;
     padding: 5px;
@@ -55,13 +57,14 @@ nav>a {
 }
 
 .presentacion {
-    color: #CFFF15;
     text-align: center;
     padding: 100px 20px;
     background-image: url(../images/background-01.jpg);
     
 }
 .presentacion>h2 {
+    color: #fff;
+    font-style: italic;
     margin-bottom: 20px;
 }
 .presentacion p {
@@ -92,7 +95,7 @@ nav>a {
     text-align: center;
     padding: 5px 50px 15px;
     border-radius: 10px;
-    margin: 10px;
+    margin: 5px;
 }
 .detalle h4 {
     margin: 10px 0;
@@ -141,7 +144,7 @@ nav>a {
     color: #121212;
 }
 .about p {
-    width: 500px;
+    width: 80%;
     text-align: center;
     margin: 20px auto;
     margin-bottom: 60px;
@@ -164,11 +167,13 @@ nav>a {
 
 .contenedor {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 .miembro {
     background-color: #121212;
     width: 250px;
+    margin: 5px;
     padding: 15px;
     border-radius: 10px;
     text-align: center;
@@ -222,10 +227,9 @@ nav>a {
     gap: 5px;
 }
 .menu-lateral {
-    width: 25%;
-    height: 500px;
-    background-color: #E6E6E6;
-    padding: 10px 20px 0 20px;
+    width: 30%;
+    height: 750px;
+    padding: 15px 5px 0 10px;
 }
 .menu-lateral h3 {
     margin-bottom: 15px;
@@ -245,11 +249,12 @@ nav>a {
 }
 
 .seccion-productos {
-    width: 75%;
+    width: 70%;
 }
 .seccion-productos h3 {
     color: #121212;
     padding: 15px;
+    border-radius: 0 0 5px 5px;
     background-color: #E6E6E6;
     margin-bottom: 15px;
 }
@@ -306,7 +311,7 @@ table, tr, td, th {
     color: #121212;
 }
 .beneficios table {
-    width: 100%;
+    min-width: 100%;
     margin-bottom: 10px;
 }
 .beneficios th {
@@ -322,7 +327,7 @@ table, tr, td, th {
     padding: 40px 0 40px 0;
 }
 .formulario-contacto {
-    max-width: 600px;
+    max-width: 400px;
     margin: auto;
     padding: 20px;
     border: 1px solid #ccc;
@@ -367,7 +372,7 @@ table, tr, td, th {
     width: 150px;
     border: none;
     border-radius: 3px;
-    background-color: #333;
+    background-color: #121212;
     color: white;
     cursor: pointer;
 }
