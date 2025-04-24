@@ -20,49 +20,37 @@
                 <a href="#">Contact</a>
         </nav>
     </header>
-    <main class="main-contact">
-        <h2>Contact</h2>
-        <div class="contenedor-contact">
-            <div class="iframe-mapa">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.0113027191396!2d-58.41560312626576!3d-34.603875697713335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca8c854bd13f%3A0xfc0cf5c054da4aa1!2sAbasto%20Shopping!5e0!3m2!1ses-419!2sar!4v1745396972400!5m2!1ses-419!2sar" allowfullscreen="allowfullscreen" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-            <div class="form-container">
-                <form action="https://aulamindhub.github.io/dwm_show_data/show_data.html" method="get" target="_blank">
-                  <div class="form-group">
-                    <label for="name">Full Name:</label>
-                    <input type="text" name="Name" placeholder="Full Name" required>
-                  </div>
-                  <div class="form-group">
-                    <label for="email">Email:</label>
-                    <input type="email" name="Email" placeholder="Email" required>
-                  </div>
-                  <div class="form-group">
-                    <label>Interested categories:</label>
-                    <div class="checkbox-group">
-                      <label><input type="checkbox" name="Interest" value="Yoga"> Yoga</label>
-                      <label><input type="checkbox" name="Interest" value="Futbol"> Futbol</label>
-                      <label><input type="checkbox" name="Interest" value="Running"> Running</label>
-                      <label><input type="checkbox" name="Interest" value="Training"> Training</label>
-                      <label><input type="checkbox" name="Interest" value="Cycling"> Cycling</label>
-                      <label><input type="checkbox" name="Interest" value="Basquet"> Basquet</label>
-                    </div>
-                  </div>
-                  <div class="form-group">
-                    <label for="message">Message:</label>
-                    <textarea name="Message" placeholder="Write your message here"></textarea>
-                  </div>
-                  <div class="form-group">
-                    <label>I want to subscribe:</label>
-                    <div class="radio-group">
-                      <label><input type="radio" name="Subscribe" value="yes" /> Yes</label>
-                      <label><input type="radio" name="Subscribe" value="no" /> No</label>
-                    </div>
-                  </div>
-                  <div class="form-group buttons">
+    <main class="main-contacto">
+        <div class="formulario-contacto">
+            <h2>Contact</h2>
+            <form action="https://aulamindhub.github.io/dwm_show_data/show_data.html" method="get" target="_blank">
+                <label for="name">Full Name:</label>
+                <input type="text" id="fullname" name="Name" placeholder="Full Name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="Email" placeholder="Email" required>
+                <label>Interested categories:</label>
+                <div class="categorias-contacto">
+                    <label><input type="checkbox" name="Interest" value="Football"> Football</label>
+                    <label><input type="checkbox" name="Interest" value="Basketball"> Basketball</label>
+                    <label><input type="checkbox" name="Interest" value="Yoga"> Yoga</label>
+                    <label><input type="checkbox" name="Interest" value="Running"> Running</label>
+                    <label><input type="checkbox" name="Interest" value="Training"> Training</label>
+                    <label><input type="checkbox" name="Interest" value="Cycling"> Cycling</label>
+                </div>
+                <label for="message">Message:</label>
+                <textarea id="message" name="Message" placeholder="Your Message"></textarea>
+                <label>I want to subscribe</label>
+                <div class="suscripcion">
+                    <label><input type="radio" name="Suscription" value="Yes"> Yes</label>
+                    <label><input type="radio" name="Suscription" value="No"> No</label>
+                </div>
+                <div class="botones-contacto">
                     <button type="reset">Reset</button>
-                    <button type="submit">Send</button>
-                  </div>
-                </form>
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+            <div class="mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52544.17799475145!2d-58.48308747832035!3d-34.60388019999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca8c854bd13f%3A0xfc0cf5c054da4aa1!2sAbasto%20Shopping!5e0!3m2!1ses-419!2sar!4v1745468753510!5m2!1ses-419!2sar" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
     </main>
