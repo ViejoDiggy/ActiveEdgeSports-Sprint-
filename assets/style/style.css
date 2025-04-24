@@ -64,6 +64,7 @@ nav>a {
 }
 .presentacion>h2 {
     color: #fff;
+    text-shadow: #333 2px 2px 5px;
     font-style: italic;
     margin-bottom: 20px;
 }
